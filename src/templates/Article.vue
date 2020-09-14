@@ -15,12 +15,12 @@
 </template>
 
 <page-query>
-query BlogPost ($path: String!) {
+query Article ($path: String!) {
   metadata {
     siteName
     siteDescription
   }
-  post: blogPost (path: $path) {
+  post: article (path: $path) {
     id
     title
     strapline

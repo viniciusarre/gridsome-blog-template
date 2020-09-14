@@ -16,7 +16,6 @@
       </v-list-item>
     </v-list>
     </v-navigation-drawer>
-    <!-- mobile navbar -->
 
     <v-main>
       <slot />
